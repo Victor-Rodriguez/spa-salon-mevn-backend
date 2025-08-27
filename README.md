@@ -1,6 +1,6 @@
-# 📚 MEVN SPA Backend
+# 📚 MEVN SPA SALON Backend
 
-Una aplicación backend desarrollada con **Node.js**, **Express** y **MongoDB** para una SPA (Single Page Application) usando el stack MEVN.
+Una aplicación backend desarrollada con **Node.js**, **Express** y **MongoDB** para la gestión de citas y servicios en un salón de spa, usando el stack MEVN.
 
 ## 🚀 Características
 
@@ -20,7 +20,7 @@ Una aplicación backend desarrollada con **Node.js**, **Express** y **MongoDB** 
 
 ```bash
 # Clonar el repositorio
-git clone <https://github.com/Victor-Rodriguez/spa-salon-mevn-backend.git>
+git clone https://github.com/Victor-Rodriguez/spa-salon-mevn-backend.git
 
 # Navegar al directorio
 cd spa-salon-mevn-backend
