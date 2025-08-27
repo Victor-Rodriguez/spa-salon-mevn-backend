@@ -1,0 +1,29 @@
+{
+  "name": "appspa_mevn_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend para App Spa en MEVN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed:import": "node data/seed.js --import",
+    "seed:clear": "node data/seed.js --clear"
+  },
+  "author": "Víctor Rodríguez",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^17.2.1",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.0",
+    "nodemailer": "^7.0.5"
+  }
+}
